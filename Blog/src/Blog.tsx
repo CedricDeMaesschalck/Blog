@@ -8,6 +8,7 @@ interface BlogPost {
     content: string;
     date: string;
     author: string;
+    Tag: string[];
 }
 
 const styles = {
@@ -72,6 +73,7 @@ const Blog = () => {
             content: 'Deze Week heb ik een kleine opleiding gevolgd van Xurrent 1 van de tools dat de Provincie Antwerpen gebruikt. Ook heb ik een aangenaam ontvangst gekregen van het team waar ik stage loop.',
             date: '2025-02-08',
             author: 'Cedric',
+            Tag: ['opleiding'],
         },
     ]);
 
@@ -97,6 +99,7 @@ const Blog = () => {
                             </p>
                             <p style={styles.articleText}>{post.excerpt}</p>
                             <p style={styles.articleText}>{post.content}</p>
+                            <p style={styles.articleText}>Tags: {post.Tag.join(', ')}</p>
                         </article>
                     ))}
                 </div>
