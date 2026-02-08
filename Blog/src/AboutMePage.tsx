@@ -74,6 +74,9 @@ const AboutMePage = () => {
           <p style={styles.articleText}>
             Welcome bij mijn blog.
           </p>
+          <p> 
+            hier komt foto
+          </p>
         </section>
 
         <section style={{ backgroundColor: '#fff8f0', padding: '1.5rem', borderRadius: '8px' }}>

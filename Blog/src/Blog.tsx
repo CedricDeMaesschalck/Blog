@@ -69,7 +69,7 @@ const Blog = () => {
             id: 1,
             title: 'Eerste Blog Post',
             excerpt: 'Sammenvatting van mijn eerste week op stage.',
-            content: 'Deze Week heb ik een training gevolgd van Xurrent 1 van de tools dat de Provincie gebruikt. Ook heb ik een aangenaam ontvangst gekregen van het team waar ik stage loop.',
+            content: 'Deze Week heb ik een kleine opleiding gevolgd van Xurrent 1 van de tools dat de Provincie Antwerpen gebruikt. Ook heb ik een aangenaam ontvangst gekregen van het team waar ik stage loop.',
             date: '2025-02-08',
             author: 'Cedric',
         },
