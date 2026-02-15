@@ -68,13 +68,22 @@ const Blog = () => {
     const [posts] = useState<BlogPost[]>([
         {
             id: 1,
-            title: 'Eerste Blog Post',
+            title: 'Week 1',
             excerpt: 'Sammenvatting van mijn eerste week op stage.',
             content: 'Deze Week heb ik een kleine opleiding gevolgd van Xurrent 1 van de tools dat de Provincie Antwerpen gebruikt. Ook heb ik een aangenaam ontvangst gekregen van het team waar ik stage loop.',
-            date: '2025-02-08',
+            date: '08-02-2026',
             author: 'Cedric',
             tag: ['opleiding'],
         },
+        {
+            id: 2,
+            title: 'Week 2',
+            excerpt: 'Service maken',
+            content: 'Deze week mocht ik beginnen met code schrijven en mijn eerste taak was het automatiseren van een service aan te maken. Dit lukte op het einde van de week maar zeker niet zonder enige tegenslagen. Hier en daar wat extra opzoekwerk gedaan. Het Supportteam heeft me ook geholpen als ik iets niet goed begreep.',
+            date: '15-02-2026',
+            author: 'Cedric',
+            tag: ['Bijleren', 'Ups and Downs','coderen',],
+        }
     ]);
 
     return (
