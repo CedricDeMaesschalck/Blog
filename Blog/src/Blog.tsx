@@ -80,7 +80,7 @@ const Blog = () => {
             title: 'Week 2',
             excerpt: 'Service maken',
             content: 'Deze week mocht ik beginnen met code schrijven en mijn eerste taak was het automatiseren van een service aan te maken. Dit lukte op het einde van de week maar zeker niet zonder enige tegenslagen. Hier en daar wat extra opzoekwerk gedaan. Het Supportteam heeft me ook geholpen als ik iets niet goed begreep.',
-            date: '15-02-2026',
+            date: '02-15-2026',
             author: 'Cedric',
             tag: ['Bijleren', 'Ups and Downs','coderen',],
         },
@@ -89,7 +89,7 @@ const Blog = () => {
             title: 'Week 3',
             excerpt: 'Service maken voltooid',
             content: 'Deze week ging goed en de service chain is volledig klaar. zou nu een service kunnen aanmaken deze dan een service instance geven -> service Offering -> SLA -> Category en dit wordt dan elke keer via de xurrent api naar xurrent zelf gestuurd. Nu mijn volgende taak is iets moeilijker het updaten van een service naar onbruikbaar en ook alles errond in 1 keer.',
-            date: '22-02-2026',
+            date: '02-22-2026',
             author: 'Cedric',
             tag: ['Voltooid'],
         }
