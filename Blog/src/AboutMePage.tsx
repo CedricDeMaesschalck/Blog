@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-
+import image from './assets/image.png'
 const AboutMePage = () => {
 
     const styles = {
@@ -54,6 +54,11 @@ const AboutMePage = () => {
         lineHeight: '1.6',
         marginBottom: '0.5rem',
     },
+    image: {
+    width: "100%",
+    borderRadius: "10px",
+    objectFit: "cover" as const,
+  },
 };
     return (
       <>
@@ -74,9 +79,7 @@ const AboutMePage = () => {
           <p style={styles.articleText}>
             Welcome bij mijn blog.
           </p>
-          <p> 
-            hier komt foto
-          </p>
+          <img style={{width: "500px",height: "500px",borderRadius: "10px",objectFit: "cover" }} src={image} alt="foto" />
         </section>
 
         <section style={{ backgroundColor: '#fff8f0', padding: '1.5rem', borderRadius: '8px' }}>
