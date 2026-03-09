@@ -82,7 +82,7 @@ const Blog = () => {
             content: 'Deze week mocht ik beginnen met code schrijven en mijn eerste taak was het automatiseren van een service aan te maken. Dit lukte op het einde van de week maar zeker niet zonder enige tegenslagen. Hier en daar wat extra opzoekwerk gedaan. Het Supportteam heeft me ook geholpen als ik iets niet goed begreep.',
             date: '02-15-2026',
             author: 'Cedric',
-            tag: ['Bijleren', 'Ups and Downs','coderen',],
+            tag: ['Bijleren', 'Ups and Downs','Coderen',],
         },
         {
             id: 3,
@@ -92,7 +92,25 @@ const Blog = () => {
             date: '02-22-2026',
             author: 'Cedric',
             tag: ['Voltooid'],
-        }
+        },
+        {
+            id: 4,
+            title: "week 4",
+            excerpt: "Deactiveren van Service",
+            content: "Mijn nieuwe taak voor deze week was het deactiveren van een Service en alles dat er rond hing. Dus heb ik de Xurrent Rest API documentatie moeten raadplegen voor wat er nodig is om een service uit te zetten en zo als een soort van waterval te werk te gaan. Toen ik dit had afgemaakt kon ik beginnen aan het overzetten van een service van de test omgeving in xurrent naar de Productie omgeving of omgekeerd.",
+            date: "02-28-2026",
+            author: "Cedric",
+            tag: ["Bijleren","Coderen",]
+        },
+        {
+            id: 5,
+            title: "week 5",
+            excerpt: "Service Overzetten",
+            content: "Deze week heb ik verder gewerkt aan het overzetten van services dit is toch het moeilijkste dat ik tot nu toe heb gedaan. Wegens dat je veel checks moet doen of het al bestaat in 1 van de 2 platformen. Ook omdat niet alles hetzelfde is Bv. Ids zijn anders waardoor als je een service van de ene naar de andere wilt overzetten je de id moet verwijderen. Maar ik krijg de nodige hulp van mijn team als ik met vragen zit voor als ik een keer niet zeker ben.",
+            date: "03-08-2026",
+            author: "Cedric",
+            tag: ["Bijleren","Ups and Downs",]
+        },
     ]);
 
     return (
