@@ -116,7 +116,7 @@ const Blog = () => {
             title : "week 6",
             excerpt: "Service Overschrijven",
             content: "Ik ben begonnen aan het overschrijven van services wat anders is dan het overzetten het overzetten was van de testing naar de productie of omgekeerd. Het Overschrijven dient meer om testing te syncen met de productie. Door een hele service over een andere service te schrijven",
-            date: "03-08-2026",
+            date: "03-15-2026",
             author: "Cedric",
             tag: ["Bijleren", "Coderen"]
         }
