@@ -119,6 +119,15 @@ const Blog = () => {
             date: "03-15-2026",
             author: "Cedric",
             tag: ["Bijleren", "Coderen"]
+        },
+         {
+            id: 7,
+            title : "week 7",
+            excerpt: "Service Overschrijven Afronden",
+            content: " Deze week heb ik Service overschrijven afgemaakt en ben ik begonnen aan het refactoren van mijn code deze in aparte klasses steken en onnodige delen weghalen zodat het overzichterlijker is en betere herbruikbare code. ",
+            date: "03-22-2026",
+            author: "Cedric",
+            tag: ["Refactoren","Goed"]
         }
     ]);
 
