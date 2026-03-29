@@ -128,6 +128,18 @@ const Blog = () => {
             date: "03-22-2026",
             author: "Cedric",
             tag: ["Refactoren","Goed"]
+        },
+        {
+        
+            id: 8,
+            title : "week 8",
+            excerpt: "Nieuwe taken",
+            content: "Deze week kreeg ik een paar nieuwe opdrachten waar ik aan mocht beginnen. Één daarvan is de Querybrowser deze wordt gebruikt door de service desk om mensen in op te zoeken en ik moet deze applicatie naar de AutoSD applicatie overmaken en wat extra dingen aan toevoegen zoals een insert en een update.",
+            date: "03-29-2026",
+            author: "Cedric",
+            tag: ["Nieuwe Taken", "Enthousiast"]
+        
+
         }
     ]);
 
