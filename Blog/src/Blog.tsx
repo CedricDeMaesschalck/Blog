@@ -140,6 +140,15 @@ const Blog = () => {
             tag: ["Nieuwe Taken", "Enthousiast"]
         
 
+        },
+        {
+            id: 9,
+            title : "week 9",
+            excerpt: "Querybrowser",
+            content: "Deze week heb ik een groot deel van de querybrowser overgemaakt de users zouden nieuwe users kunnen toevoegen aan specifieke lijsten en of groepen. ",
+            date: "04-06-2026",
+            author: "Cedric",
+            tag: ["Coderen"] 
         }
     ]);
 
