@@ -149,6 +149,15 @@ const Blog = () => {
             date: "04-06-2026",
             author: "Cedric",
             tag: ["Coderen"] 
+        },
+        {
+            id: 10,
+            title : "week 10",
+            excerpt: "Feedback toepassen",
+            content: "Deze week hebben we meer getest op de Service wizard die ik in het begin had gemaakt waar we toch nog een paar bugs hebben gevonden en quality of life toevoegingen nodig had. Dus heb ik deze feedback toegepast en de nodige aanpassingen gedaan.",
+            date: "04-12-2026",
+            author: "Cedric",
+            tag: ["Coderen", "feedback"] 
         }
     ]);
 
