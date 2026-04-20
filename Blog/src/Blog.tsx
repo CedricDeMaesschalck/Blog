@@ -158,6 +158,16 @@ const Blog = () => {
             date: "04-12-2026",
             author: "Cedric",
             tag: ["Coderen", "feedback"] 
+        },
+        {
+             id: 11,
+            title : "week 11",
+            excerpt: "verder Feedback aanpassen",
+            content: "Deze week heb ik verder de feedback aangepast en heb ik ook extra taakjes gekregen om meer het volledige gevoel te krijgen van wat de support groep allemaal doet.",
+            date: "04-19-2026",
+            author: "Cedric",
+            tag: ["Bijleren"] 
+
         }
     ]);
 
