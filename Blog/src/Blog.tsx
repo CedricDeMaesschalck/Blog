@@ -168,6 +168,16 @@ const Blog = () => {
             author: "Cedric",
             tag: ["Bijleren"] 
 
+        },
+         {
+             id: 12,
+            title : "week 12",
+            excerpt: "afsluiten",
+            content: "Deze week heb ik de project afgerond en heb ik een aantal laatste aanpassingen gedaan. ook heb ik de Querybrowser verder afgemaakt en meeting gepland voor deze volgende week te tonen en bespreken voor verbeteringen en aanpassingen.",
+            date: "04-26-2026",
+            author: "Cedric",
+            tag: ["Bijleren"] 
+
         }
     ]);
 
