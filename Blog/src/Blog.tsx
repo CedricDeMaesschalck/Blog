@@ -172,13 +172,24 @@ const Blog = () => {
          {
              id: 12,
             title : "week 12",
-            excerpt: "afsluiten",
-            content: "Deze week heb ik de project afgerond en heb ik een aantal laatste aanpassingen gedaan. ook heb ik de Querybrowser verder afgemaakt en meeting gepland voor deze volgende week te tonen en bespreken voor verbeteringen en aanpassingen.",
+            excerpt: "Project klaarmaken voor verdere feedback",
+            content: "Deze week heb ik het project afgerond en heb ik een aantal laatste aanpassingen gedaan zodat ik weer feedback hierop kan krijgen. ook heb ik de Querybrowser verder afgemaakt en meeting gepland voor deze volgende week te tonen en bespreken voor verbeteringen en aanpassingen.",
             date: "04-26-2026",
             author: "Cedric",
             tag: ["Afwerken"] 
 
-        }
+        },
+         {
+             id: 13,
+            title : "week 13",
+            excerpt: "Nieuwe oplossing",
+            content: "Eerst heb ik deze week mijn programma gebruikt om een service van qa naar prd te sturen. Ook de feedback van de querybrowser was goed nog een paar kleine aanpassingen die moesten gebeuren. we kwamen erachter dat er een probleem was met de database dus moesten we een nieuwe oplossing zoeken voor de service wizard. Dit is dan overstappen naar csv's inladen geworden.",
+            date: "05-03-2026",
+            author: "Cedric",
+            tag: ["Ups and downs"] 
+
+        },
+
     ]);
 
     return (
