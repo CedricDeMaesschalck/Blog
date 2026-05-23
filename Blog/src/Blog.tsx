@@ -189,6 +189,26 @@ const Blog = () => {
             tag: ["Ups and downs"] 
 
         },
+        {
+             id: 14,
+            title : "week 14",
+            excerpt: "Overstapen naar csv's inladen",
+            content: "Deze week heb ik de service wizard overgezet naar csv's inladen en dit is goed gelukt. Er waren nog een paar kleine aanpassingen nodig maar deze zijn ook allemaal opgelost. Nu is het verder testen om te zien of er nog problemen zijn.",
+            date: "05-10-2026",
+            author: "Cedric",
+            tag: ["Coderen"] 
+
+        },
+        {
+             id: 15,
+            title : "week 15",
+            excerpt: "Laatste week stage",
+            content: "Tijdens mijn laatste week heb ik nog de laatste paar foutjes aangepast en de Querybrowser verder afgemaakt.",
+            date: "05-17-2026",
+            author: "Cedric",
+            tag: ["Afwerken","Einde Stage"] 
+
+        },
 
     ]);
 
